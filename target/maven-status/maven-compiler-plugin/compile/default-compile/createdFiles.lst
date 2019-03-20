@@ -1,0 +1,6 @@
+com\revolut\application\BankAccountApplication.class
+com\revolut\entity\OperationType.class
+com\revolut\provider\ConnectionProvider.class
+com\revolut\entity\Client.class
+com\revolut\entity\BankOperation.class
+com\revolut\entity\Account.class
