@@ -25,7 +25,7 @@ public class H2ConnectionProvider {
 		}
 		try {
 			h2Connection = DriverManager.getConnection(H2_URL, H2_USER, H2_PASSWORD);
-			return h2Connection;
+			h2Connection.setAutoCommit(false);
 		} catch (SQLException e) {
 			System.out.println(e.getMessage());
 		}
